@@ -76,10 +76,6 @@ void myKDtree::print_data(vecType pt)
 	std::cout << "\n";
 }
 
-/*
-*
-*
-*/
 void myKDtree::printTree(Node* head)
 {
 	//find the tree depth 
@@ -153,14 +149,6 @@ void myKDtree::setHeadVariables(Node* head, std::list<myKDtree::vecType>& plist)
 	head->halfWidth = head->center.x - minX;
 	head->halfHeight = head->center.y - minY;
 	head->halfDepth = head->center.z - minZ;
-
-	//std::cout << " head->center: " << head->center.x << " , " << head->center.y << " , " << head->center.z << std::endl;
-	//std::cout << " halfWidth: " << head->halfWidth << " halfHeight: " << head->halfHeight << " halfDepth: " << head->halfDepth << std::endl;
-
-
-
-
-
 }
 
 /*
