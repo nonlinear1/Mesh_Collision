@@ -1,0 +1,22 @@
+﻿Build started 08/03/2018 15:25:10.
+     1>Project "C:\Users\tamir\Documents\Visual Studio 2012\Projects\ClassExample\ClassExample\ClassExample.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\tamir\Documents\Visual Studio 2012\Projects\ClassExample\display" /I"C:\Users\tamir\Documents\Visual Studio 2012\Projects\ClassExample\engine3D" /I"C:\Users\tamir\Documents\Visual Studio 2012\Projects\ClassExample\ClassExample\res\includes" /I"C:\Users\tamir\Documents\Visual Studio 2012\Projects\ClassExample\ClassExample" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\tamir\documents\visual studio 2012\projects\classexample\display\inputmanager.h(31): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\tamir\documents\visual studio 2012\projects\classexample\display\inputmanager.h(32): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\tamir\documents\visual studio 2012\projects\classexample\display\inputmanager.h(39): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\tamir\documents\visual studio 2012\projects\classexample\display\inputmanager.h(40): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\tamir\documents\visual studio 2012\projects\classexample\display\inputmanager.h(70): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\tamir\documents\visual studio 2012\projects\classexample\display\inputmanager.h(101): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\tamir\documents\visual studio 2012\projects\classexample\display\inputmanager.h(148): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\tamir\Documents\Visual Studio 2012\Projects\ClassExample\Debug\ClassExample.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\tamir\Documents\Visual Studio 2012\Projects\ClassExample\ClassExample/res/libs" glew32s.lib glfw3.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\tamir\Documents\Visual Studio 2012\Projects\ClassExample\Debug\ClassExample.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\tamir\Documents\Visual Studio 2012\Projects\ClassExample\Debug\ClassExample.lib" /MACHINE:X86 Debug\main.obj
+         "C:\Users\tamir\Documents\Visual Studio 2012\Projects\ClassExample\Debug\display.lib"
+         "C:\Users\tamir\Documents\Visual Studio 2012\Projects\ClassExample\Debug\engine3D.lib"
+         ClassExample.vcxproj -> C:\Users\tamir\Documents\Visual Studio 2012\Projects\ClassExample\Debug\ClassExample.exe
+     1>Done Building Project "C:\Users\tamir\Documents\Visual Studio 2012\Projects\ClassExample\ClassExample\ClassExample.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.98

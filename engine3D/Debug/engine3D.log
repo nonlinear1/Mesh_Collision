@@ -1,0 +1,9 @@
+﻿  mesh.cpp
+c:\users\meirs\onedrive\מסמכים\visual studio 2015\projects\meshcollision\classexample2\engine3d\mesh.cpp(110): warning C4018: '<': signed/unsigned mismatch
+  scene.cpp
+c:\users\meirs\onedrive\מסמכים\visual studio 2015\projects\meshcollision\classexample2\engine3d\scene.cpp(115): warning C4018: '<': signed/unsigned mismatch
+c:\users\meirs\onedrive\מסמכים\visual studio 2015\projects\meshcollision\classexample2\engine3d\scene.cpp(205): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  shape.cpp
+  Generating Code...
+  stb_image.c
+  engine3D.vcxproj -> C:\Users\meirs\OneDrive\מסמכים\Visual Studio 2015\Projects\meshCollision\ClassExample2\Debug\engine3D.lib
